@@ -1479,3 +1479,73 @@ body::-webkit-scrollbar {
   cursor: not-allowed;
 }
 
+/* NOT FOUND */
+.not-found {
+  max-width: 520px;
+  margin: 80px auto 60px;
+  padding: 0 20px;
+  text-align: center;
+  animation: intro 0.3s;
+}
+
+.not-found__code {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 72px;
+  font-weight: 600;
+  color: var(--color-accent);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.not-found__title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.not-found__message {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.not-found__actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.not-found__link {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: #fff;
+  transition: background-color 0.15s;
+}
+
+.not-found__link:hover,
+.not-found__link:focus-visible {
+  background-color: var(--color-accent-hover);
+  outline: none;
+}
+
+.not-found__link--muted {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.not-found__link--muted:hover,
+.not-found__link--muted:focus-visible {
+  background-color: var(--color-surface);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
