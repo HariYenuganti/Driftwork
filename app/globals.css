@@ -831,6 +831,8 @@ body::-webkit-scrollbar {
 }
 
 .job-info__right {
+  flex: 1;
+  min-width: 0;
   padding-right: 42px;
 }
 
@@ -887,6 +889,8 @@ body::-webkit-scrollbar {
   margin-top: 18px;
   margin-bottom: 12px;
   line-height: 1.4;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
 }
 
 .job-info__extras {
