@@ -21,7 +21,7 @@ export default function JobListItem({ jobItem, isActive }: JobListItemProps) {
         <div className="job-item__badge">{jobItem.badgeLetters}</div>
 
         <div className="job-item__middle">
-          <h3 className="third-heading">{jobItem.title}</h3>
+          <h2 className="third-heading">{jobItem.title}</h2>
           <p className="job-item__company">{jobItem.company}</p>
         </div>
 

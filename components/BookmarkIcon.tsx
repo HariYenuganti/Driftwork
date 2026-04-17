@@ -10,17 +10,22 @@ type BookmarkIconProps = {
 export default function BookmarkIcon({ jobItemId }: BookmarkIconProps) {
   const { bookmarkedIds, handleToggleBookmark } = useBookmarksContext();
 
+  const isBookmarked = bookmarkedIds.includes(jobItemId);
   return (
     <button
+      type="button"
       onClick={(e) => {
         handleToggleBookmark(jobItemId);
         e.stopPropagation();
         e.preventDefault();
       }}
       className="bookmark-btn"
+      aria-label={isBookmarked ? 'Remove bookmark' : 'Bookmark this role'}
+      aria-pressed={isBookmarked}
     >
       <BookmarkFilledIcon
-        className={`${bookmarkedIds.includes(jobItemId) ? 'filled' : ''}`}
+        aria-hidden="true"
+        className={isBookmarked ? 'filled' : ''}
       />
     </button>
   );

@@ -10,6 +10,7 @@ import {
 import { useFilterContext } from '@/lib/hooks';
 import { JobItem, PageDirection, SortBy } from '@/lib/type';
 import { RESULTS_PER_PAGE } from '@/lib/constants';
+import { filterJobs, sortJobs, paginate } from '@/lib/filters';
 
 type JobItemsContextType = {
   jobItems: JobItem[];
@@ -42,14 +43,7 @@ export default function JobItemsContextProvider({
   const [sortBy, setSortBy] = useState<SortBy>('relevant');
 
   const jobItemsFiltered = useMemo(
-    () =>
-      jobItems.filter((j) => {
-        if (seniority && j.seniority !== seniority) return false;
-        if (tags.length > 0 && !tags.every((t) => j.tags.includes(t)))
-          return false;
-        if (remoteOnly && !j.remote) return false;
-        return true;
-      }),
+    () => filterJobs(jobItems, { seniority, tags, remoteOnly }),
     [jobItems, seniority, tags, remoteOnly]
   );
 
@@ -62,23 +56,12 @@ export default function JobItemsContextProvider({
   }, [seniority, tags, remoteOnly, jobItems]);
 
   const jobItemsSorted = useMemo(
-    () =>
-      [...jobItemsFiltered].sort((a, b) => {
-        if (sortBy === 'relevant') {
-          return b.relevanceScore - a.relevanceScore;
-        } else {
-          return a.daysAgo - b.daysAgo;
-        }
-      }),
+    () => sortJobs(jobItemsFiltered, sortBy),
     [sortBy, jobItemsFiltered]
   );
 
   const jobItemsSortedAndSliced = useMemo(
-    () =>
-      jobItemsSorted.slice(
-        currentPage * RESULTS_PER_PAGE - RESULTS_PER_PAGE,
-        currentPage * RESULTS_PER_PAGE
-      ),
+    () => paginate(jobItemsSorted, currentPage, RESULTS_PER_PAGE),
     [jobItemsSorted, currentPage]
   );
 

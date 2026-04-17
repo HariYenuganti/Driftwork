@@ -13,6 +13,7 @@ import { useJobItemsContext } from '@/lib/hooks';
 export default function Sidebar({ jobItems }: { jobItems: JobItem[] }) {
   return (
     <div className="sidebar">
+      <h1 className="u-visually-hidden">Driftwork — remote developer jobs</h1>
       <JobItemsContextProvider jobItems={jobItems}>
         <div className="sidebar__top">
           <ResultsCount />
