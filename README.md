@@ -5,50 +5,71 @@
   <p><em>Remote engineering jobs that find you.</em></p>
 
   <p>
-    A curated job board for remote developer roles. Server-rendered list +
-    detail, URL-driven search, client-side filters, bookmarks that survive a
-    refresh — all on a single Next.js 16 App Router deploy.
+    <strong><a href="https://driftwork-sand.vercel.app/">→ Live demo</a></strong>
+    &nbsp;·&nbsp;
+    <a href="#whats-interesting-here">What's interesting</a>
+    &nbsp;·&nbsp;
+    <a href="#running-it">Run locally</a>
+    &nbsp;·&nbsp;
+    <a href="#deploy-vercel--prisma-postgres">Deploy</a>
   </p>
 
 [![Next.js](https://img.shields.io/badge/Next.js%2016-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React%2019-20232A?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)](https://www.prisma.io/)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://sqlite.org/)
+[![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)](https://zod.dev/)
+[![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)](https://vitest.dev/)
 
 </div>
+
+> A curated job board for remote developer roles. Server-rendered list +
+> detail, URL-driven search, client-side filters, submit-a-role flow with
+> validated server actions, and a custom 404 — all on a single Next.js 16
+> App Router deploy.
+
+## Preview
+
+| Desktop | Mobile |
+|---|---|
+| ![Driftwork list view with filter chips](docs/screenshots/home.png) | <img src="docs/screenshots/mobile-detail.png" width="280" alt="Driftwork mobile detail view" /> |
 
 ---
 
 ## What's interesting here
 
 - **App Router + parallel routes.** The sidebar (search, filters, list) and
-  detail pane are separate route segments that render independently. Clicking
-  a job navigates to `/jobs/[id]?search=...` — a real, shareable URL with its
-  own `<title>` from `generateMetadata` — while the sidebar stays mounted
-  and doesn't re-scroll.
-- **Server Components for data.** The job list and detail fetches happen on
-  the server, hitting Prisma directly. No client cache, no HTTP round-trip,
-  no loading spinner for the first paint. Client state (filters, sort,
-  pagination, bookmarks) lives in React Contexts.
-- **One batched endpoint.** Bookmarks hydrate via a single
-  `GET /api/jobs?ids=1,2,3` — one Prisma `findMany` — rather than N parallel
-  requests.
+  detail pane are separate route segments. Clicking a job navigates to
+  `/jobs/[id]?search=...` — a real, shareable URL with its own `<title>`
+  from `generateMetadata` — while the sidebar stays mounted and doesn't
+  re-scroll. Mobile swaps which pane is visible based on route.
+- **Server Components for reads, Server Actions for writes.** The list and
+  detail fetches hit Prisma directly from RSC — no client cache, no HTTP
+  round-trip, no loading spinner for first paint. The "Post a role" form
+  posts to a zod-validated server action that `revalidatePath('/')` on
+  success and `redirect`s to the new job.
+- **Optimistic-ready bookmarks context.** Persists to `localStorage`,
+  hydrates remotely via a single batched `GET /api/jobs?ids=1,2,3` — one
+  Prisma `findMany` — rather than N parallel requests.
 - **URL as state.** Search lives in `?search=`, the active job is the route
   segment. Back/forward, refresh, and sharing all work naturally.
-- **Typed end-to-end.** Shared TypeScript types (`JobItem`,
-  `JobItemExpanded`, `Seniority`) sit in [`lib/type.ts`](lib/type.ts) and are
-  imported by both RSC and client code. Zod validates all route-handler
-  inputs.
+- **A11y-first.** axe-core reports zero violations across all routes.
+  Keyboard navigation, `aria-pressed` bookmark toggles, skip-to-content
+  link, semantic landmarks, WCAG AA contrast throughout.
+- **Typed end-to-end, tested.** Shared `JobItem` / `JobItemExpanded` types
+  in [`lib/type.ts`](lib/type.ts). Zod validates all route-handler inputs.
+  Vitest covers the filter/sort pipeline and zod schema — run
+  `npm test` for 32 tests in ~1s.
 
 ## Stack
 
 - **Framework:** Next.js 16 (App Router, Turbopack, React 19)
-- **Data:** Prisma 5 + SQLite (local) — `provider = "postgresql"` for prod
+- **Data:** Prisma 5 + Prisma Postgres (Vercel Marketplace)
 - **State:** React Context (`Filter`, `Bookmarks`, `JobItems`) + URL search
   params
-- **Validation:** Zod
+- **Validation:** Zod (schema shared between server action and client form)
+- **Testing:** Vitest + Testing Library
 - **UI:** Vanilla CSS with design tokens, Radix UI icons, `next/font`
   (Inter + Fraunces), react-hot-toast
 
@@ -75,6 +96,14 @@ Try it:
 - refresh the detail URL — fully hydrated, same search still in the box
 - filter by `senior` + `TypeScript`, check pagination resets
 - bookmark a couple jobs, refresh, confirm they survive
+- `Post a role` → validated server action → job appears in search instantly
+
+### Testing
+
+```bash
+npm test              # run the 32-test suite once
+npm run test:watch    # watch mode for development
+```
 
 ## Project layout
 
