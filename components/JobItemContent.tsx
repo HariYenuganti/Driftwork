@@ -43,7 +43,7 @@ export default function JobItemContent({ jobItem }: Props) {
           </div>
 
           <div className="job-info__right">
-            <h2 className="second-heading">{jobItem.title}</h2>
+            <h1 className="second-heading">{jobItem.title}</h1>
             <p className="job-info__company">{jobItem.company}</p>
             <p className="job-info__description">{jobItem.description}</p>
             <div className="job-info__extras">
@@ -66,7 +66,7 @@ export default function JobItemContent({ jobItem }: Props) {
         <div className="job-details__other">
           <section className="qualifications">
             <div className="qualifications__left">
-              <h4 className="fourth-heading">Qualifications</h4>
+              <h2 className="fourth-heading">Qualifications</h2>
               <p className="qualifications__sub-text">
                 Other qualifications may apply
               </p>
@@ -82,7 +82,7 @@ export default function JobItemContent({ jobItem }: Props) {
 
           <section className="reviews">
             <div className="reviews__left">
-              <h4 className="fourth-heading">Company reviews</h4>
+              <h2 className="fourth-heading">Company reviews</h2>
               <p className="reviews__sub-text">
                 Recent things people are saying
               </p>

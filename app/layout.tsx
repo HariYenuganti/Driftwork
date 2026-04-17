@@ -49,6 +49,9 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <a className="skip-link" href="#main">
+          Skip to content
+        </a>
         <Providers>
           <Background />
           <Header>
@@ -61,7 +64,7 @@ export default function RootLayout({
               <SearchForm />
             </Suspense>
           </Header>
-          {children}
+          <main id="main">{children}</main>
           <Footer />
         </Providers>
       </body>

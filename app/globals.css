@@ -6,8 +6,9 @@
   --color-surface: #ffffff;
   --color-text: #1a1d23;
   --color-text-muted: #5a6473;
-  --color-accent: #c97f3f;
-  --color-accent-hover: #a86528;
+  --color-accent: #c97f3f;         /* decorative (logo mark, hover highlights) */
+  --color-accent-hover: #a86528;   /* darker — used for hover states */
+  --color-accent-strong: #8b4c1a;  /* darker still — interactive surfaces w/ white text (WCAG AA) */
   --color-border: #e4dfd3;
   --color-header-from: #2b2620;
   --color-header-to: #1a1613;
@@ -48,6 +49,41 @@ input {
 /* UTILITIES */
 .u-bold {
   font-weight: 700;
+}
+
+/* Visually hide an element while keeping it available to screen readers. */
+.u-visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link for keyboard users — appears only when focused. */
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  padding: 10px 16px;
+  background: var(--color-accent);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  z-index: 100;
+  transform: translateY(-200%);
+  transition: transform 0.15s;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid #fff;
 }
 
 /* KEYFRAMES */
@@ -662,7 +698,7 @@ body::-webkit-scrollbar {
   font-size: 10px;
   padding: 4px 10px;
   border-radius: 500px;
-  color: #747c82;
+  color: var(--color-text);
   background-color: #eceff2;
   cursor: pointer;
   transition: all 0.2s, visibility 0s;
@@ -766,8 +802,8 @@ body::-webkit-scrollbar {
 }
 
 .job-details__footer-text {
-  color: #858b8f;
-  font-size: 10px;
+  color: var(--color-text-muted);
+  font-size: 11px;
 }
 
 /* APPLY BTN */
@@ -797,9 +833,9 @@ body::-webkit-scrollbar {
 
 .apply-btn {
   position: absolute;
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-strong);
   z-index: 2;
-  color: rgba(255, 255, 255, 0.92);
+  color: #ffffff;
   font-size: 11px;
   padding: 5px 10px 6px;
   border-radius: 3px;
@@ -1029,7 +1065,7 @@ body::-webkit-scrollbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #a4a9ac;
+  color: var(--color-text-muted);
 }
 
 /* COPYRIGHT */
@@ -1184,8 +1220,8 @@ body::-webkit-scrollbar {
 
 .chip--active {
   color: var(--color-surface);
-  background-color: var(--color-accent);
-  border-color: var(--color-accent);
+  background-color: var(--color-accent-strong);
+  border-color: var(--color-accent-strong);
 }
 
 .chip--active:hover {
@@ -1502,7 +1538,7 @@ body::-webkit-scrollbar {
   font: inherit;
   font-weight: 500;
   padding: 10px 22px;
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-strong);
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -1533,7 +1569,7 @@ body::-webkit-scrollbar {
   font-family: 'Fraunces', Georgia, serif;
   font-size: 72px;
   font-weight: 600;
-  color: var(--color-accent);
+  color: var(--color-accent-strong);
   line-height: 1;
   margin-bottom: 12px;
 }
@@ -1566,7 +1602,7 @@ body::-webkit-scrollbar {
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-strong);
   color: #fff;
   transition: background-color 0.15s;
 }

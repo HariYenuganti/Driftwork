@@ -45,7 +45,9 @@ export default function SearchForm() {
         value={value}
         onChange={(e) => setValue(e.target.value)}
         spellCheck="false"
-        type="text"
+        type="search"
+        name="search"
+        aria-label="Search remote developer jobs"
         placeholder="Find remote developer jobs..."
       />
     </form>
