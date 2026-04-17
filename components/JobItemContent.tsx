@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { JobItemExpanded } from '@/lib/type';
 import BookmarkIcon from './BookmarkIcon';
 
@@ -10,6 +11,14 @@ export default function JobItemContent({ jobItem }: Props) {
   return (
     <section className="job-details">
       <div>
+        <Link
+          href="/"
+          className="job-details__back"
+          aria-label="Back to results"
+        >
+          ← Back to results
+        </Link>
+
         <Image
           src={jobItem.coverImgURL}
           alt={`${jobItem.company} cover image`}

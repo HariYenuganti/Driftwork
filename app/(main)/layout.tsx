@@ -1,4 +1,5 @@
 import Container from '@/components/Container';
+import RouteMode from '@/components/RouteMode';
 
 /**
  * Layout for the main "dashboard" routes (/, /jobs/[id]).
@@ -13,9 +14,12 @@ export default function MainLayout({
   detail: React.ReactNode;
 }) {
   return (
-    <Container>
-      {children}
-      {detail}
-    </Container>
+    <>
+      <RouteMode />
+      <Container>
+        {children}
+        {detail}
+      </Container>
+    </>
   );
 }
