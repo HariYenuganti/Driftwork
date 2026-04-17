@@ -771,6 +771,30 @@ body::-webkit-scrollbar {
 }
 
 /* APPLY BTN */
+.job-details__back {
+  display: none;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  padding: 6px 10px 6px 9px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.15s;
+}
+
+.job-details__back:hover,
+.job-details__back:focus-visible {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  outline: none;
+}
+
 .apply-btn {
   position: absolute;
   background-color: var(--color-accent);
@@ -1225,12 +1249,29 @@ body::-webkit-scrollbar {
     overflow: hidden;
   }
 
+  .sidebar,
   .search-results {
     width: 100%;
   }
 
-  .job-details {
+  /* Default: list route → hide the empty detail pane. */
+  body[data-route='list'] .job-details,
+  body:not([data-route]) .job-details {
     display: none;
+  }
+
+  /* Detail route on mobile → hide the sidebar, show the detail full-width. */
+  body[data-route='detail'] .sidebar {
+    display: none;
+  }
+  body[data-route='detail'] .job-details {
+    display: block;
+    border-radius: 8px;
+  }
+
+  /* Show the mobile-only "back to results" link inside the detail. */
+  .job-details__back {
+    display: block;
   }
 
   .footer {
