@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 21143532463576656,
+    "description": "In our Software Engineering Group we look first and foremost for people who are passionate around solving business problems through innovation & engineering practices.",
+    "qualifications": [
+      "JavaScript",
+      "CSS",
+      "ReactJS",
+      "Python",
+      "NodeJS",
+      "Responsive web design",
+      "PostgreSQL"
+    ],
+    "reviews": [
+      "Hit or miss depending on client.",
+      "Very organized and yet flexible.",
+      "Good communication, good culture.",
+      "Flexible and understanding."
+    ],
+    "title": "Full-Stack Web Dev",
+    "badgeLetters": "OT",
+    "company": "Outside Tech",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionaloutsidetechwebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Full-Stack",
+      "CSS",
+      "Python"
+    ],
+    "remote": false
+  }
+}

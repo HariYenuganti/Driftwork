@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 66533214131242140000,
+    "description": "We include powerful features such as document scanning, email and text communication, as well as posts to Zillow, Trulia and other popular apartment listing sites.",
+    "qualifications": [
+      "HTML/CSS",
+      "JavaScript",
+      "XML",
+      "jQuery",
+      "Java/Python",
+      "React/Node.js",
+      "MySQL/MongoDB"
+    ],
+    "reviews": [
+      "They really try to keep culture intact.",
+      "Working remotely was great.",
+      "Customer base was interesting.",
+      "Good entry-level positions."
+    ],
+    "title": "JS Full-Stack Dev.",
+    "badgeLetters": "CD",
+    "company": "Cadeen Design",
+    "duration": "Full-Time",
+    "salary": "$98,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalcadeendesignwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "Full-Stack",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

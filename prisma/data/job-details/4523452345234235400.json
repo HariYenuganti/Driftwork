@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 4523452345234235400,
+    "description": "As a Full Stack Developer you will be responsible for the development, maintenance, and interoperability of all service supporting operations, both on the back-end and the front-end.",
+    "qualifications": [
+      "NodeJS",
+      "Apollo",
+      "Redis",
+      "MongoDB",
+      "ElasticSearch",
+      "VueJS",
+      "AWS"
+    ],
+    "reviews": [
+      "Fast growth rate as a developer.",
+      "Good place to learn new things.",
+      "Don't judge a book by its cover.",
+      "Good compensation and benefits."
+    ],
+    "title": "Full-Stack Web Developer",
+    "badgeLetters": "CA",
+    "company": "Codigo Amigo",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 3,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalcodigoamigowebsite.com",
+    "date": "2026-04-13",
+    "seniority": "mid",
+    "tags": [
+      "JavaScript",
+      "Full-Stack",
+      "AWS"
+    ],
+    "remote": true
+  }
+}

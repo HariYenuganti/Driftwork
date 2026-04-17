@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 565556437548678300,
+    "description": "We are seeking talented & passionate web developers to help build new cloud-based services to accompany our flagship product. You will bring curiosity, craft, and a love of helping customers do their best work.",
+    "qualifications": [
+      "HTML/CSS/JS",
+      "React/React Native",
+      "Node/Rails",
+      "Apollo client & GraphQL",
+      "Bonus: UX/UI"
+    ],
+    "reviews": [
+      "Pay & Benefits are awesome.",
+      "Comfortable to work here for sure.",
+      "Nice people that will support you.",
+      "All good. Recommended."
+    ],
+    "title": "Remote Full Stack Developer",
+    "badgeLetters": "LS",
+    "company": "Lockshelf System",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 3,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionallockshelfsystemwebsite.com",
+    "date": "2026-04-13",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Full-Stack",
+      "GraphQL",
+      "CSS"
+    ],
+    "remote": false
+  }
+}

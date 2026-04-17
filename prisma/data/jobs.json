@@ -1,0 +1,872 @@
+{
+  "public": true,
+  "sorted": true,
+  "jobItems": [
+    {
+      "id": 111436589999857660,
+      "title": "Software Developer",
+      "company": "Schneider Network",
+      "badgeLetters": "SN",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "mid",
+      "tags": [
+        "JavaScript",
+        "AWS",
+        "GraphQL",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 1123412341634563,
+      "title": "Front End React Engineer",
+      "company": "9th Tech",
+      "badgeLetters": "9T",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "Frontend",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 11312545454587,
+      "title": "Junior Software Developer",
+      "company": "Aspen Tech",
+      "badgeLetters": "AT",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "junior",
+      "tags": [
+        "React",
+        "Node",
+        "GraphQL"
+      ],
+      "remote": true
+    },
+    {
+      "id": 123445787932452350,
+      "title": "Front End/UI Developer",
+      "company": "PluralTech",
+      "badgeLetters": "PT",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "mid",
+      "tags": [
+        "Frontend",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 134531333300996980,
+      "title": "JS Developer (Front-End)",
+      "company": "Origami Tech",
+      "badgeLetters": "OT",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Frontend",
+        "GraphQL"
+      ],
+      "remote": true
+    },
+    {
+      "id": 21143532463576656,
+      "title": "Full-Stack Web Dev",
+      "company": "Outside Tech",
+      "badgeLetters": "OT",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Full-Stack",
+        "CSS",
+        "Python"
+      ],
+      "remote": false
+    },
+    {
+      "id": 23532411423675764,
+      "title": "Full-Stack Engineer",
+      "company": "Hire99",
+      "badgeLetters": "H9",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "Full-Stack",
+        "AWS",
+        "Python"
+      ],
+      "remote": true
+    },
+    {
+      "id": 23542345745674570,
+      "title": "Front-End Developer",
+      "company": "ComputerHaver",
+      "badgeLetters": "CH",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Frontend",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 243554334565360900000,
+      "title": "Developer (eCommerce)",
+      "company": "Intersystem Center",
+      "badgeLetters": "IC",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "CSS",
+        "Python",
+        "E-commerce"
+      ],
+      "remote": false
+    },
+    {
+      "id": 32412342141234,
+      "title": "JavaScript Developer",
+      "company": "NewOperator",
+      "badgeLetters": "NO",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 3244453245234544600,
+      "title": "Software Engineer",
+      "company": "Warner Table",
+      "badgeLetters": "WT",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 32545344324444230,
+      "title": "Jr. Back-End Developer",
+      "company": "Veritech Solutions",
+      "badgeLetters": "VS",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "junior",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Backend",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 345634575475476,
+      "title": "Node.js Software Engineer",
+      "company": "PredICT",
+      "badgeLetters": "PT",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "CSS",
+        "Java"
+      ],
+      "remote": false
+    },
+    {
+      "id": 35454334545467880000,
+      "title": "Full-Stack Developer",
+      "company": "AIWare",
+      "badgeLetters": "AW",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "JavaScript",
+        "Full-Stack",
+        "AWS",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 435243523542435,
+      "title": "Full-Stack Developer",
+      "company": "LakeOperations",
+      "badgeLetters": "LO",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "Full-Stack",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 444352435253478800,
+      "title": "Back-End Developer",
+      "company": "Sense Enterprises",
+      "badgeLetters": "SE",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "JavaScript",
+        "Backend",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 4523452345234235400,
+      "title": "Full-Stack Web Developer",
+      "company": "Codigo Amigo",
+      "badgeLetters": "CA",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "JavaScript",
+        "Full-Stack",
+        "AWS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 456456223451231200000,
+      "title": "Full-Stack Developer",
+      "company": "Margot Agency",
+      "badgeLetters": "MA",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Full-Stack",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 4564566555,
+      "title": "Front-End Developer",
+      "company": "Out Debt",
+      "badgeLetters": "OD",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "Node",
+        "JavaScript",
+        "Frontend",
+        "CSS",
+        "Python"
+      ],
+      "remote": false
+    },
+    {
+      "id": 45665689000765350,
+      "title": "Front End Developer",
+      "company": "KSMA",
+      "badgeLetters": "KS",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "Frontend",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 5424355454545533,
+      "title": "Software Engineer",
+      "company": "Octu Labs",
+      "badgeLetters": "OL",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript"
+      ],
+      "remote": true
+    },
+    {
+      "id": 5436456788787875,
+      "title": "Back-End Developer",
+      "company": "Scalers",
+      "badgeLetters": "S",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Backend",
+        "Python"
+      ],
+      "remote": true
+    },
+    {
+      "id": 545555623245,
+      "title": "Frontend Developer",
+      "company": "StudyOpen",
+      "badgeLetters": "SO",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Frontend",
+        "AWS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 5553645680007895,
+      "title": "Frontend Developer - React",
+      "company": "AT Security",
+      "badgeLetters": "AS",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "TypeScript",
+        "Frontend"
+      ],
+      "remote": true
+    },
+    {
+      "id": 5565436546655690000,
+      "title": "Remote Full-Stack Developer",
+      "company": "Grey Knight",
+      "badgeLetters": "GK",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Full-Stack",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 5565534645643622000,
+      "title": "Remote Front-End Developer",
+      "company": "As Exus",
+      "badgeLetters": "AE",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Frontend",
+        "CSS",
+        "Java"
+      ],
+      "remote": false
+    },
+    {
+      "id": 5565565652345245,
+      "title": "JS Developer",
+      "company": "Verso Networks",
+      "badgeLetters": "VN",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 565556437548678300,
+      "title": "Remote Full Stack Developer",
+      "company": "Lockshelf System",
+      "badgeLetters": "LS",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Full-Stack",
+        "GraphQL",
+        "CSS"
+      ],
+      "remote": false
+    },
+    {
+      "id": 588798657345634700,
+      "title": "Full-Stack Web Developer",
+      "company": "Palm Media",
+      "badgeLetters": "PM",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "Node",
+        "JavaScript",
+        "TypeScript",
+        "Full-Stack",
+        "AWS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 634634363464563500,
+      "title": "Senior Web Developer",
+      "company": "Veri Veri",
+      "badgeLetters": "VV",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "senior",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "TypeScript",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 64565511231243784,
+      "title": "Jr. Back-End Developer",
+      "company": "O-Haul",
+      "badgeLetters": "OH",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "junior",
+      "tags": [
+        "JavaScript",
+        "Backend",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 653656455525325000000,
+      "title": "Full Stack Developer",
+      "company": "Principal Finance",
+      "badgeLetters": "PF",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Full-Stack",
+        "AWS"
+      ],
+      "remote": false
+    },
+    {
+      "id": 65436513221353250,
+      "title": "Back End Web Developer",
+      "company": "Epsilon Services",
+      "badgeLetters": "ES",
+      "daysAgo": 5,
+      "relevanceScore": 99,
+      "date": "2026-04-11",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Backend",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 6546436634563464000,
+      "title": "Full-Stack Developer",
+      "company": "Zyme Research",
+      "badgeLetters": "ZR",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "Full-Stack",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 65656655454343586000,
+      "title": "Senior Frontend Developer",
+      "company": "Purple Street",
+      "badgeLetters": "PS",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "senior",
+      "tags": [
+        "React",
+        "Frontend",
+        "GraphQL",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 66533214131242140000,
+      "title": "JS Full-Stack Dev.",
+      "company": "Cadeen Design",
+      "badgeLetters": "CD",
+      "daysAgo": 4,
+      "relevanceScore": 99,
+      "date": "2026-04-12",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "Full-Stack",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 68968756834563464,
+      "title": "Software Developer",
+      "company": "CapSoft",
+      "badgeLetters": "CS",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 76767654674567460000,
+      "title": "Full Stack Remote",
+      "company": "UAB Health",
+      "badgeLetters": "UH",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Full-Stack",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 76876887834563460,
+      "title": "Full-Stack Developer",
+      "company": "Venca Inc.",
+      "badgeLetters": "VI",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Full-Stack"
+      ],
+      "remote": true
+    },
+    {
+      "id": 77667576576677,
+      "title": "Full Stack Engineer",
+      "company": "HO Software",
+      "badgeLetters": "HS",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "mid",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Full-Stack",
+        "GraphQL",
+        "CSS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 7766762343452355000,
+      "title": "Front End Web Developer",
+      "company": "Tech Intelligence",
+      "badgeLetters": "TI",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Frontend",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 77767676356565660,
+      "title": "Full-Stack Web Engineer",
+      "company": "Vision Tower",
+      "badgeLetters": "VT",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "Full-Stack",
+        "AWS"
+      ],
+      "remote": true
+    },
+    {
+      "id": 86586586578324520000,
+      "title": "Node Developer",
+      "company": "Ivee Tech",
+      "badgeLetters": "IT",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "Node",
+        "JavaScript",
+        "GraphQL"
+      ],
+      "remote": true
+    },
+    {
+      "id": 898679876973546,
+      "title": "Junior Software Developer",
+      "company": "Rey and Rey",
+      "badgeLetters": "RR",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "junior",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "CSS",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 96069683624625420,
+      "title": "Front End Web Developer",
+      "company": "Piper Corporate",
+      "badgeLetters": "PC",
+      "daysAgo": 5,
+      "relevanceScore": 99,
+      "date": "2026-04-11",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Frontend",
+        "Java"
+      ],
+      "remote": false
+    },
+    {
+      "id": 967898776967865,
+      "title": "Front End Developer",
+      "company": "Paytron Systems",
+      "badgeLetters": "PS",
+      "daysAgo": 2,
+      "relevanceScore": 99,
+      "date": "2026-04-14",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Frontend",
+        "CSS",
+        "Java"
+      ],
+      "remote": false
+    },
+    {
+      "id": 9889989867856755000,
+      "title": "Full Stack Developer",
+      "company": "Skill Place",
+      "badgeLetters": "SP",
+      "daysAgo": 5,
+      "relevanceScore": 99,
+      "date": "2026-04-11",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "Node",
+        "JavaScript",
+        "Full-Stack"
+      ],
+      "remote": true
+    },
+    {
+      "id": 989069067867654800,
+      "title": "Entry-Level Developer",
+      "company": "Intune Networks",
+      "badgeLetters": "IN",
+      "daysAgo": 1,
+      "relevanceScore": 99,
+      "date": "2026-04-15",
+      "seniority": "junior",
+      "tags": [
+        "JavaScript",
+        "Java"
+      ],
+      "remote": true
+    },
+    {
+      "id": 990796582354534,
+      "title": "Assistant Web Developer",
+      "company": "Pear & So",
+      "badgeLetters": "PS",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "junior",
+      "tags": [
+        "React",
+        "JavaScript",
+        "GraphQL",
+        "CSS",
+        "Java"
+      ],
+      "remote": false
+    },
+    {
+      "id": 9967898989857690,
+      "title": "Full-Stack JavaScript",
+      "company": "The Technology Paper",
+      "badgeLetters": "TP",
+      "daysAgo": 3,
+      "relevanceScore": 99,
+      "date": "2026-04-13",
+      "seniority": "mid",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Full-Stack",
+        "GraphQL",
+        "Java"
+      ],
+      "remote": true
+    }
+  ]
+}

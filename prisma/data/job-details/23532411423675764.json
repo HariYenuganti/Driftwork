@@ -1,0 +1,41 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 23532411423675764,
+    "description": "This position will provide the developer with a fair amount of independence. The developer's experience will inform design decisions made in coordination with stakeholders.",
+    "qualifications": [
+      "Python",
+      "React",
+      "AWS",
+      "NoSQL/MySQL",
+      "Responsiveness",
+      "Node JS"
+    ],
+    "reviews": [
+      "Productive work environment.",
+      "Remarkable people work here.",
+      "I will miss this company.",
+      "Opportunity to grow in your technology."
+    ],
+    "title": "Full-Stack Engineer",
+    "badgeLetters": "H9",
+    "company": "Hire99",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalhire99website.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "Full-Stack",
+      "AWS",
+      "Python"
+    ],
+    "remote": true
+  }
+}

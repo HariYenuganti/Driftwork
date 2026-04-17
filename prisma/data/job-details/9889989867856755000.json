@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 9889989867856755000,
+    "description": "Our developers are involved in all phases of the software development life cycle working both independently and in teams. They are expected to design, develop and maintain software to meet provided specifications.",
+    "qualifications": [
+      "React",
+      "Ruby on Rails",
+      "Go",
+      "Node.js",
+      "MongoDB/NoSQL",
+      "Responsive web design"
+    ],
+    "reviews": [
+      "Good for exploring technologies.",
+      "Working remotely is no problem.",
+      "75% of the team worked remotely.",
+      "Interesting tech used here."
+    ],
+    "title": "Full Stack Developer",
+    "badgeLetters": "SP",
+    "company": "Skill Place",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 5,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalskillplacewebsite.com",
+    "date": "2026-04-11",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "Full-Stack"
+    ],
+    "remote": true
+  }
+}

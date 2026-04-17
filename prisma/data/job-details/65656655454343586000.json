@@ -1,0 +1,41 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 65656655454343586000,
+    "description": "As a front-end developer, you will be responsible for designing, developing and deploying full-stack solutions in support of Purple Streets' core business.",
+    "qualifications": [
+      "HTML5",
+      "CSS",
+      "React",
+      "GraphQL",
+      "Node/Express",
+      "Optional: Angular",
+      "Optional: Vue"
+    ],
+    "reviews": [
+      "Great for starters & experienced.",
+      "Ability to learn and grow.",
+      "Best for acquiring experience.",
+      "You can pick different projects."
+    ],
+    "title": "Senior Frontend Developer",
+    "badgeLetters": "PS",
+    "company": "Purple Street",
+    "duration": "Full-Time",
+    "salary": "$85,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalpurplestreetwebsite.com",
+    "date": "2026-04-15",
+    "seniority": "senior",
+    "tags": [
+      "React",
+      "Frontend",
+      "GraphQL",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

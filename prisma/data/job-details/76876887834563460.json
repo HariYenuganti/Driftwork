@@ -1,0 +1,38 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 76876887834563460,
+    "description": "We are looking for someone who is passionate about technology and has experience in developing highly available and highly secured applications.",
+    "qualifications": [
+      "JS (ES6+)",
+      "babel",
+      "React",
+      "Karma/Jasmine/Mocha",
+      "MongoDB/NoSQL"
+    ],
+    "reviews": [
+      "Productive and good.",
+      "Good opportunities for learning.",
+      "Decent work/life balance.",
+      "Excellent minds work here."
+    ],
+    "title": "Full-Stack Developer",
+    "badgeLetters": "VI",
+    "company": "Venca Inc.",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalvencaincwebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Full-Stack"
+    ],
+    "remote": true
+  }
+}

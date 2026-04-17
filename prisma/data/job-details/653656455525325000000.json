@@ -1,0 +1,39 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 653656455525325000000,
+    "description": "Are you an experienced, passionate pioneer in technology - a solutions builder, a roll-up-your-sleeves technologist who wants a daily collaborative environment, think-tank feel?",
+    "qualifications": [
+      "NodeJS",
+      "ReactJS",
+      "AWS",
+      "SEO",
+      "Optional: MongoDB"
+    ],
+    "reviews": [
+      "Challening work and decent hours.",
+      "Productive and remote, perfect.",
+      "Remote possible but also relocation.",
+      "Reliable and respectful."
+    ],
+    "title": "Full Stack Developer",
+    "badgeLetters": "PF",
+    "company": "Principal Finance",
+    "duration": "Full-Time",
+    "salary": "$95,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalprincipalfinancewebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Full-Stack",
+      "AWS"
+    ],
+    "remote": false
+  }
+}

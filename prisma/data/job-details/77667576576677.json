@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 77667576576677,
+    "description": "We encourage our engineers to think like an owner: to continue to act small as we grow. Every team defines their own roadmaps, and uses the programming languages and technologies that suit them best.",
+    "qualifications": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Optional: GraphQL"
+    ],
+    "reviews": [
+      "Nice company to start and learn from.",
+      "Good pay structure.",
+      "Nice, peaceful work environment.",
+      "High job security."
+    ],
+    "title": "Full Stack Engineer",
+    "badgeLetters": "HS",
+    "company": "HO Software",
+    "duration": "Full-Time",
+    "salary": "$100,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalhosoftwarewebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "JavaScript",
+      "TypeScript",
+      "Full-Stack",
+      "GraphQL",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 1123412341634563,
+    "description": "Join us as we pursue our disruptive new vision to make machine data accessible, usable, and valuable to everyone.",
+    "qualifications": [
+      "Node",
+      "CSS",
+      "JavaScript",
+      "React",
+      "HTML",
+      "MongoDB/NoSQL",
+      "Responsive web design"
+    ],
+    "reviews": [
+      "Nice building and food also.",
+      "Great working experience.",
+      "I liked the manager and team.",
+      "Interesting projects for starters."
+    ],
+    "title": "Front End React Engineer",
+    "badgeLetters": "9T",
+    "company": "9th Tech",
+    "duration": "Full-Time",
+    "salary": "$105,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictional9thtechwebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "Frontend",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

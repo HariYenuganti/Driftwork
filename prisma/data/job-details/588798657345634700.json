@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 588798657345634700,
+    "description": "This position will be working on multiple custom applications and deploying to production multiple times in a given day depending on the current project cycle.",
+    "qualifications": [
+      "Node.js",
+      "JavaScript",
+      "Typescript",
+      "AWS Lambda",
+      "MongoDB/DynamoDB",
+      "AWS",
+      "Bonus: GraphQL"
+    ],
+    "reviews": [
+      "Good, nothing negative to say.",
+      "Above par for sure.",
+      "Fantastic teams and projects.",
+      "Professional company to work for."
+    ],
+    "title": "Full-Stack Web Developer",
+    "badgeLetters": "PM",
+    "company": "Palm Media",
+    "duration": "Full-Time",
+    "salary": "$150,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalpalmmediawebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "Node",
+      "JavaScript",
+      "TypeScript",
+      "Full-Stack",
+      "AWS"
+    ],
+    "remote": true
+  }
+}

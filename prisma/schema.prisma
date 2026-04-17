@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  // Pooled connection (pgbouncer) — used at runtime by server components + route handlers.
+  url       = env("POSTGRES_PRISMA_URL")
+  // Direct connection — used by `prisma db push`, migrations, and the seed script.
+  directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+
+model JobItem {
+  id             String   @id
+  title          String
+  company        String
+  badgeLetters   String
+  daysAgo        Int
+  relevanceScore Int
+  date           String
+  seniority      String
+  tags           String
+  remote         Boolean
+
+  description    String
+  qualifications String
+  reviews        String
+  duration       String
+  salary         String
+  location       String
+  coverImgURL    String
+  companyURL     String
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}

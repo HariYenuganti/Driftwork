@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 64565511231243784,
+    "description": "You will own and evolve software that connects our Associates with Customers world-wide, ensuring we deliver the highest quality and reliable contact experience for world-class Customer Service.",
+    "qualifications": [
+      "HTML",
+      "CSS",
+      "JS",
+      "Azure Cloud",
+      "ASP.NET",
+      "MongoDB/NoSQL",
+      "Optional: C#"
+    ],
+    "reviews": [
+      "Hard work but interesting projects.",
+      "It's a good company.",
+      "Great introductory work for dev.",
+      "I liked the training."
+    ],
+    "title": "Jr. Back-End Developer",
+    "badgeLetters": "OH",
+    "company": "O-Haul",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalohaulwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "junior",
+    "tags": [
+      "JavaScript",
+      "Backend",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

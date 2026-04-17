@@ -1,0 +1,39 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 243554334565360900000,
+    "description": "The ideal candidaysAgo should be an excellent communicator who is adept with website content maintenance tasks, including administrative and design under the guidance of the assistant director.",
+    "qualifications": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "Python/Django",
+      "Git/GitHub",
+      "Bonus: eCommerce exp."
+    ],
+    "reviews": [
+      "Great remote-first company.",
+      "Enjoyed my tenure here.",
+      "Also good for advancing career.",
+      "Great training process."
+    ],
+    "title": "Developer (eCommerce)",
+    "badgeLetters": "IC",
+    "company": "Intersystem Center",
+    "duration": "Full-Time",
+    "salary": "$100,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalintersystemcenterwebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "CSS",
+      "Python",
+      "E-commerce"
+    ],
+    "remote": false
+  }
+}

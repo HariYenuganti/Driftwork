@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 5565436546655690000,
+    "description": "Web Developer will have back- and front-end web development skills and join the broader digital development team in developing and maintaining the central web presence.",
+    "qualifications": [
+      "CSS",
+      "React",
+      "JavaScript",
+      "HTML",
+      "TypeScript",
+      "Ruby",
+      "MySQL"
+    ],
+    "reviews": [
+      "Good place to grow career.",
+      "Very fair and opportunities abound.",
+      "Not bad at all, recommended.",
+      "The coworkers are very nice."
+    ],
+    "title": "Remote Full-Stack Developer",
+    "badgeLetters": "GK",
+    "company": "Grey Knight",
+    "duration": "Full-Time",
+    "salary": "$150,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalgreyknightwebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Full-Stack",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

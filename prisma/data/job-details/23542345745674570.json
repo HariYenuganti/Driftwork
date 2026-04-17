@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 23542345745674570,
+    "description": "Under the direction of the Eng. Manager, the front-end developer will maintain web pages and web apps for the family of ComputerHaver websites.",
+    "qualifications": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "HTML",
+      "Optional: Angular 2+",
+      "Optional: Vue.js"
+    ],
+    "reviews": [
+      "Remote work here is possible.",
+      "Fantastic place to work. Enjoyed it.",
+      "Great benefits for learning, also online.",
+      "Good opportunities for your career."
+    ],
+    "title": "Front-End Developer",
+    "badgeLetters": "CH",
+    "company": "ComputerHaver",
+    "duration": "Full-Time",
+    "salary": "$85,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalcomputerhaverwebsite.com",
+    "badgeBgColor": "#3d87f1",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Frontend",
+      "CSS",
+      "Java"
+    ],
+    "remote": true
+  }
+}

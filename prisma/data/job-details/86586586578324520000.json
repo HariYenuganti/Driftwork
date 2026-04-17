@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 86586586578324520000,
+    "description": "This exciting growth opportunity shall act as a Full-stack Engineer within an existing development team focused on cloud security initiatives and in-house application design.",
+    "qualifications": [
+      "NodeJS",
+      "Apollo",
+      "GraphQL",
+      "MongoDB",
+      "GCP",
+      "Optional: Docker",
+      "Optional: Kubernetes"
+    ],
+    "reviews": [
+      "Productive & FUN workplace.",
+      "Always learning is possible.",
+      "Work is remote yet great team culture.",
+      "Excellent place to work."
+    ],
+    "title": "Node Developer",
+    "badgeLetters": "IT",
+    "company": "Ivee Tech",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionaliveetechwebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "Node",
+      "JavaScript",
+      "GraphQL"
+    ],
+    "remote": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 435243523542435,
+    "description": "As a full-stack developer, you will be responsible for designing, developing and deploying full-stack solutions in support of LakeOperations' core business.",
+    "qualifications": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "HTML",
+      "Node.js",
+      "Responsive web design",
+      "MongoDB/NoSQL"
+    ],
+    "reviews": [
+      "Best place I've ever worked. I learned a lot.",
+      "I liked that we could work remotely.",
+      "Very nice benefits for online learning.",
+      "Great coworkers, opportunities."
+    ],
+    "title": "Full-Stack Developer",
+    "badgeLetters": "LO",
+    "company": "LakeOperations",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionallakeoperationswebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "Full-Stack",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

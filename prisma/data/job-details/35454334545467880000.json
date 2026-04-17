@@ -1,0 +1,41 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 35454334545467880000,
+    "description": "Our team of technology consultants help organizations overcome business pain-points and deliver positive, award-winning results to enterprise clients across industries like energy, financial services, and more.",
+    "qualifications": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "REST API",
+      "Optional: AWS/Azure/GC"
+    ],
+    "reviews": [
+      "Good learning experience.",
+      "Great entry into tech sector.",
+      "Chill work environment.",
+      "Low-stress work place."
+    ],
+    "title": "Full-Stack Developer",
+    "badgeLetters": "AW",
+    "company": "AIWare",
+    "duration": "Full-Time",
+    "salary": "$85,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 3,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalaiwarewebsite.com",
+    "date": "2026-04-13",
+    "seniority": "mid",
+    "tags": [
+      "JavaScript",
+      "Full-Stack",
+      "AWS",
+      "CSS",
+      "Java"
+    ],
+    "remote": true
+  }
+}
