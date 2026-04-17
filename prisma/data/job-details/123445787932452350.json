@@ -1,0 +1,37 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 123445787932452350,
+    "description": "Drive the full stack development of our site: front-end, website infrastructure, data engineering, API integrations, logging, and more.",
+    "qualifications": [
+      "HTML5",
+      "Git",
+      "CSS3",
+      "jQuery",
+      "Optional: NoSQL/MongoDB"
+    ],
+    "reviews": [
+      "Reputable company with good benefits.",
+      "Good experience so far.",
+      "Friendly work environment.",
+      "Global work culture."
+    ],
+    "title": "Front End/UI Developer",
+    "badgeLetters": "PT",
+    "company": "PluralTech",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalpluraltechwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "mid",
+    "tags": [
+      "Frontend",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

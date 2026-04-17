@@ -1,0 +1,41 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 96069683624625420,
+    "description": "As one of our Developers, you will be working as part of our cross-functional teams who support the development within our core business.",
+    "qualifications": [
+      "Vue.js",
+      "React",
+      "JavaScript",
+      "Postgres",
+      "TypeScript",
+      "Git/GitHub"
+    ],
+    "reviews": [
+      "Great place to develop skillset.",
+      "They have a great track for starters.",
+      "Company with integrity.",
+      "They invest in employees."
+    ],
+    "title": "Front End Web Developer",
+    "badgeLetters": "PC",
+    "company": "Piper Corporate",
+    "duration": "Full-Time",
+    "salary": "$120,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 5,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalpipercorporatewebsite.com",
+    "date": "2026-04-11",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Frontend",
+      "Java"
+    ],
+    "remote": false
+  }
+}

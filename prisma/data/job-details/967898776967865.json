@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 967898776967865,
+    "description": "We not only assist our key clients with innovative projects, but we also assist them in finding truly talented engineers. We have an opening with our internal team for a Developer.",
+    "qualifications": [
+      "JavaScript",
+      "CSS",
+      "PHP",
+      "React",
+      "HTML",
+      "Git & GitHub",
+      "JSON"
+    ],
+    "reviews": [
+      "Productive and positive environment.",
+      "Lots of room for learning.",
+      "Good working culture.",
+      "Good training possibilities."
+    ],
+    "title": "Front End Developer",
+    "badgeLetters": "PS",
+    "company": "Paytron Systems",
+    "duration": "Full-Time",
+    "salary": "$88,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalpaytronsystemswebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Frontend",
+      "CSS",
+      "Java"
+    ],
+    "remote": false
+  }
+}

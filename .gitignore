@@ -1,4 +1,28 @@
-# Logs
+# dependencies
+node_modules
+
+# production
+.next
+out
+dist
+dist-ssr
+*.tsbuildinfo
+
+# local database (any *.db anywhere, plus Prisma migration artifacts)
+*.db
+*.db-journal
+prisma/migrations/dev/
+
+# Claude Code session metadata
+.claude/
+
+# env files (never commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# logs
 logs
 *.log
 npm-debug.log*
@@ -7,12 +31,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# editor / os
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +41,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.local

@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 45665689000765350,
+    "description": "As a developer at KSMA, you will be responsible for designing, developing and deploying full-stack solutions in support of KSMA's core business.",
+    "qualifications": [
+      "HTML",
+      "CSS",
+      "React",
+      "MongoDB/NoSQL",
+      "Node",
+      "Optional: Angular/Vue"
+    ],
+    "reviews": [
+      "Flexible work policies.",
+      "Campus with canteens is great.",
+      "Productive but also flexible.",
+      "I like the culture here."
+    ],
+    "title": "Front End Developer",
+    "badgeLetters": "KS",
+    "company": "KSMA",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalksmawebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "Frontend",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

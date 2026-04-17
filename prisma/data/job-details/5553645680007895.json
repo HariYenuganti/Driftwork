@@ -1,0 +1,41 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 5553645680007895,
+    "description": "Are you passionate about building software that makes a difference? Do you enjoy collaboration with a team of fun and smart creative people?",
+    "qualifications": [
+      "JavaScript",
+      "CSS",
+      "React",
+      "HTML",
+      "Node.js",
+      "Optional: TypeScript"
+    ],
+    "reviews": [
+      "I had a great internship.",
+      "Good stepping stone.",
+      "Well-run and organized company.",
+      "Great coworkers & opportunities."
+    ],
+    "title": "Frontend Developer - React",
+    "badgeLetters": "AS",
+    "company": "AT Security",
+    "duration": "Full-Time",
+    "salary": "$85,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalatsecuritywebsite.com",
+    "date": "2026-04-12",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "TypeScript",
+      "Frontend"
+    ],
+    "remote": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 134531333300996980,
+    "description": "Execute and satisfy requirements for globally known brands that depend on these applications to efficiently and accurately exchange their vital business documents.",
+    "qualifications": [
+      "JavaScript",
+      "Typescript",
+      "React",
+      "Responsive web design",
+      "GraphQL"
+    ],
+    "reviews": [
+      "I have nothing to complain.",
+      "Company has great vision.",
+      "Benefits and remote are great.",
+      "They leave you alone after work."
+    ],
+    "title": "JS Developer (Front-End)",
+    "badgeLetters": "OT",
+    "company": "Origami Tech",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalorigamitechwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Frontend",
+      "GraphQL"
+    ],
+    "remote": true
+  }
+}

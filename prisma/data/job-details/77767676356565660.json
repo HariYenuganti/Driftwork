@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 77767676356565660,
+    "description": "You will thrive in a complex and collaborative environment where you take action and ownership to solve problems and lead change.",
+    "qualifications": [
+      "React",
+      "Node.js",
+      "Express",
+      "AWS",
+      "Optional: AWS/Azure"
+    ],
+    "reviews": [
+      "Good company, but depends on manager.",
+      "Guidance for starters.",
+      "Fun place to work.",
+      "Nice projects allocated."
+    ],
+    "title": "Full-Stack Web Engineer",
+    "badgeLetters": "VT",
+    "company": "Vision Tower",
+    "duration": "Full-Time",
+    "salary": "$95,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalvisiontowerwebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "Full-Stack",
+      "AWS"
+    ],
+    "remote": true
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <pattern id="drift" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 30 Q 30 18, 60 30 T 120 30" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.08"/>
+      <path d="M0 60 Q 30 48, 60 60 T 120 60" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.06"/>
+      <path d="M0 90 Q 30 78, 60 90 T 120 90" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="120" height="120" fill="url(#drift)"/>
+</svg>

@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 11312545454587,
+    "description": "As a member of the team with a security focus, you will help define the future of our software by designing, creating, testing, and maintaining products that directly support security analysts all across the world.",
+    "qualifications": [
+      "React",
+      "React Native",
+      "Redux",
+      "Node",
+      "GraphQL",
+      "GitHub",
+      "VS Code"
+    ],
+    "reviews": [
+      "Good support for employees.",
+      "Decent pay and career progression.",
+      "Wonderful place to work.",
+      "Interesting sites to work on."
+    ],
+    "title": "Junior Software Developer",
+    "badgeLetters": "AT",
+    "company": "Aspen Tech",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalaspentechwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "junior",
+    "tags": [
+      "React",
+      "Node",
+      "GraphQL"
+    ],
+    "remote": true
+  }
+}

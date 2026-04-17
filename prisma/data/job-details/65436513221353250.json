@@ -1,0 +1,41 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 65436513221353250,
+    "description": "As a Front End Software Engineer, you will join a highly functioning team comprised of a combination of full time and part-time professionals across the globe.",
+    "qualifications": [
+      "JavaScript",
+      "CSS",
+      "React",
+      ".NET",
+      "HTML",
+      "Optional: SQL"
+    ],
+    "reviews": [
+      "Not bad for entry position.",
+      "Low employee turnover.",
+      "Fun workplace to be honest.",
+      "Job security & WFH!"
+    ],
+    "title": "Back End Web Developer",
+    "badgeLetters": "ES",
+    "company": "Epsilon Services",
+    "duration": "Full-Time",
+    "salary": "$97,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 5,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalepsilonserviceswebsite.com",
+    "date": "2026-04-11",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Backend",
+      "CSS",
+      "Java"
+    ],
+    "remote": true
+  }
+}

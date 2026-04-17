@@ -1,0 +1,41 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 7766762343452355000,
+    "description": "We value colleagues who enjoy learning and teaching, which creates our collaborative organization. You'll be mentored and supported.",
+    "qualifications": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Git/GitHub",
+      "Next.js"
+    ],
+    "reviews": [
+      "Questions are answered quickly.",
+      "Good company direction.",
+      "It's OK, better for starters.",
+      "A career, not a job here."
+    ],
+    "title": "Front End Web Developer",
+    "badgeLetters": "TI",
+    "company": "Tech Intelligence",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionaltechintelligencewebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "JavaScript",
+      "TypeScript",
+      "Frontend",
+      "CSS",
+      "Java"
+    ],
+    "remote": true
+  }
+}

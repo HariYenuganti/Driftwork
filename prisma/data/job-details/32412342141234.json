@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 32412342141234,
+    "description": "In this role, you will utilize the NewOperator platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle.",
+    "qualifications": [
+      "HTML",
+      "Ability to learn quickly",
+      "CSS",
+      "JavaScript",
+      "React",
+      "MongoDB/NoSQL"
+    ],
+    "reviews": [
+      "Life-changing opportunity to work here!",
+      "Stable job with growth.",
+      "Nice amenities and training culture.",
+      "Good work environment."
+    ],
+    "title": "JavaScript Developer",
+    "badgeLetters": "NO",
+    "company": "NewOperator",
+    "duration": "Full-Time",
+    "salary": "$75,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 2,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalnewoperatorwebsite.com",
+    "date": "2026-04-14",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "Java"
+    ],
+    "remote": true
+  }
+}

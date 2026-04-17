@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 545555623245,
+    "description": "You're a mid-to-senior-level full-stack developer, maybe even working in the trenches for an ad agency or a software shop. You're (probably!) not a designer.",
+    "qualifications": [
+      "JavaScript/TypeScript",
+      "C# and Java",
+      "AWS",
+      "MongoDB",
+      "Kafka",
+      "NodeJS",
+      "PostgreSQL"
+    ],
+    "reviews": [
+      "Best working experience I've had.",
+      "Chill place to work at.",
+      "Makes up for pay with training.",
+      "I highly recommend this company."
+    ],
+    "title": "Frontend Developer",
+    "badgeLetters": "SO",
+    "company": "StudyOpen",
+    "duration": "Full-Time",
+    "salary": "$85,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalstudyopenwebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "JavaScript",
+      "TypeScript",
+      "Frontend",
+      "AWS",
+      "Java"
+    ],
+    "remote": true
+  }
+}

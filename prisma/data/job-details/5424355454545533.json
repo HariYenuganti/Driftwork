@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 5424355454545533,
+    "description": "Join our tight-knit quickly growing team to help us design, develop, and bring our core product to market. This is an exciting opportunity ",
+    "qualifications": [
+      "React",
+      "Redux",
+      "HTML",
+      "Node.js",
+      "Responsiveness",
+      "Docker",
+      "Git"
+    ],
+    "reviews": [
+      "Best place I've ever worked. I learned a lot.",
+      "Professional and fun people to work with.",
+      "Very good overall I think.",
+      "Perfect for entry in software."
+    ],
+    "title": "Software Engineer",
+    "badgeLetters": "OL",
+    "company": "Octu Labs",
+    "duration": "Full-Time",
+    "salary": "$90,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 1,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionaloctulabswebsite.com",
+    "date": "2026-04-15",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript"
+    ],
+    "remote": true
+  }
+}

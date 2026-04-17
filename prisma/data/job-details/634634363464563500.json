@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 634634363464563500,
+    "description": "The Full Stack Developer will lead the development of major features and implementations, including helping to design the architecture for those features.",
+    "qualifications": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "CSS",
+      "Optional: Microservices",
+      "Optional: Docker"
+    ],
+    "reviews": [
+      "Decent pay relative to market rate.",
+      "Great place for new engineer.",
+      "Overall very good.",
+      "I like my team."
+    ],
+    "title": "Senior Web Developer",
+    "badgeLetters": "VV",
+    "company": "Veri Veri",
+    "duration": "Full-Time",
+    "salary": "$80,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalveriveriwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "senior",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "TypeScript",
+      "CSS"
+    ],
+    "remote": true
+  }
+}

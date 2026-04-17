@@ -1,0 +1,42 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 345634575475476,
+    "description": "Leverage a deep understanding of software development to develop solutions. Develop backend and frontend solutions to increase security and incorporate new features.",
+    "qualifications": [
+      "JavaScript",
+      "Sass/SCSS",
+      "React",
+      "HTML",
+      "Node.js",
+      "Responsive web design",
+      "Webpack"
+    ],
+    "reviews": [
+      "They really care about employees.",
+      "Great workfloor culture.",
+      "Nice work-life balance.",
+      "Great place to work!"
+    ],
+    "title": "Node.js Software Engineer",
+    "badgeLetters": "PT",
+    "company": "PredICT",
+    "duration": "Full-Time",
+    "salary": "$100,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalpredICTwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "mid",
+    "tags": [
+      "React",
+      "Node",
+      "JavaScript",
+      "CSS",
+      "Java"
+    ],
+    "remote": false
+  }
+}

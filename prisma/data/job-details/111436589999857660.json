@@ -1,0 +1,40 @@
+{
+  "public": true,
+  "jobItem": {
+    "id": 111436589999857660,
+    "description": "Are you passionate about delighting customers with the software you write? Do you enjoy solving complex problems with innovative and well-crafted software?",
+    "qualifications": [
+      "CSS/CSS-in-JS",
+      "RESTful HTTP APIs",
+      "webpack",
+      "GraphQL",
+      "AWS",
+      "Optional: Terraform"
+    ],
+    "reviews": [
+      "I would recommend working here.",
+      "Customer oriented with interesting projects.",
+      "The best work culture.",
+      "Collaborative team culture."
+    ],
+    "title": "Software Developer",
+    "badgeLetters": "SN",
+    "company": "Schneider Network",
+    "duration": "Full-Time",
+    "salary": "$75,000+",
+    "location": "Global",
+    "relevanceScore": 99,
+    "daysAgo": 4,
+    "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=100",
+    "companyURL": "https://fictionalschneidernetworkwebsite.com",
+    "date": "2026-04-12",
+    "seniority": "mid",
+    "tags": [
+      "JavaScript",
+      "AWS",
+      "GraphQL",
+      "CSS"
+    ],
+    "remote": true
+  }
+}
