@@ -1,4 +1,7 @@
-export default function Footer() {
+import { getJobCount } from '@/lib/services/jobService';
+
+export default async function Footer() {
+  const count = await getJobCount();
   return (
     <footer className="footer">
       <small>
@@ -11,7 +14,8 @@ export default function Footer() {
       </small>
 
       <p>
-        <span className="u-bold">50</span> curated roles
+        <span className="u-bold">{count.toLocaleString()}</span>{' '}
+        {count === 1 ? 'curated role' : 'curated roles'}
       </p>
     </footer>
   );
