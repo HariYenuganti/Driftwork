@@ -1,31 +1,36 @@
 {
-  "name": "rmtdev",
+  "name": "driftwork",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:reset": "prisma db push --force-reset --accept-data-loss && npm run db:seed",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@radix-ui/react-icons": "1.3.0",
-    "@tanstack/react-query": "4.36.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-hot-toast": "^2.4.1"
+    "@prisma/client": "^5.22.0",
+    "@radix-ui/react-icons": "^1.3.2",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-hot-toast": "^2.4.1",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@types/react": "18.2.15",
-    "@types/react-dom": "18.2.7",
-    "@typescript-eslint/eslint-plugin": "6.0.0",
-    "@typescript-eslint/parser": "6.0.0",
-    "@vitejs/plugin-react": "4.0.3",
-    "eslint": "8.45.0",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-react-refresh": "0.4.3",
-    "typescript": "5.0.2",
-    "vite": "4.4.5"
+    "@eslint/eslintrc": "^3.3.5",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "prisma": "^5.22.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   }
 }

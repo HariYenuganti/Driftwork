@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 260 56" fill="none">
+  <g transform="translate(8 18)">
+    <path d="M0 12 Q 8 4, 16 12 T 32 12" stroke="#c97f3f" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M2 20 Q 10 14, 18 20 T 34 20" stroke="#c97f3f" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+  <text x="56" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="500" fill="#f5f1eb" letter-spacing="0.2">
+    Driftwork
+  </text>
+</svg>
