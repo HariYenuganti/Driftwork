@@ -4,11 +4,11 @@ import { Suspense } from 'react';
 import './globals.css';
 import Providers from './providers';
 import Background from '@/components/Background';
-import Container from '@/components/Container';
 import Footer from '@/components/Footer';
 import Header, { HeaderTop } from '@/components/Header';
 import Logo from '@/components/Logo';
 import BookmarksButton from '@/components/BookmarksButton';
+import SubmitJobLink from '@/components/SubmitJobLink';
 import SearchForm from '@/components/SearchForm';
 
 const inter = Inter({
@@ -34,10 +34,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  detail,
 }: {
   children: React.ReactNode;
-  detail: React.ReactNode;
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${fraunces.variable}`}>
@@ -56,16 +54,14 @@ export default function RootLayout({
           <Header>
             <HeaderTop>
               <Logo />
+              <SubmitJobLink />
               <BookmarksButton />
             </HeaderTop>
             <Suspense fallback={null}>
               <SearchForm />
             </Suspense>
           </Header>
-          <Container>
-            {children}
-            {detail}
-          </Container>
+          {children}
           <Footer />
         </Providers>
       </body>
