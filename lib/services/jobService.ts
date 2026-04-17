@@ -73,6 +73,13 @@ export async function getJobById(id: string): Promise<JobItemExpanded | null> {
 }
 
 /**
+ * Total job count — used by the footer.
+ */
+export async function getJobCount(): Promise<number> {
+  return prisma.jobItem.count();
+}
+
+/**
  * Batched lookup for client-side bookmarks hydration.
  * Single SQL query — replaces the old TanStack useQueries pattern.
  */
