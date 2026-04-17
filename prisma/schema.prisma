@@ -3,11 +3,8 @@ generator client {
 }
 
 datasource db {
-  provider  = "postgresql"
-  // Pooled connection (pgbouncer) — used at runtime by server components + route handlers.
-  url       = env("POSTGRES_PRISMA_URL")
-  // Direct connection — used by `prisma db push`, migrations, and the seed script.
-  directUrl = env("POSTGRES_URL_NON_POOLING")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model JobItem {

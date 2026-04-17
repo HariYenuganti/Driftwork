@@ -54,17 +54,18 @@
 
 ## Running it
 
-Driftwork uses **Postgres** (Vercel Postgres / Neon). For local dev, create a
-Neon dev branch at [neon.tech](https://neon.tech) — free tier supports
-branching, so prod data stays untouched.
+Driftwork uses **[Prisma Postgres](https://www.prisma.io/postgres)** —
+serverless Postgres with built-in connection pooling, provisioned through the
+Vercel Marketplace. Once the project is linked to Vercel, one command pulls
+the connection string into `.env`.
 
 ```bash
 npm install
-cp .env.example .env
-# paste your Neon dev branch URLs into .env
-npm run db:push       # create schema on your DB
-npm run db:seed       # populate from prisma/data
-npm run dev           # → http://localhost:3000
+vercel link            # once — connects this repo to your Vercel project
+vercel env pull .env   # pulls DATABASE_URL from the Marketplace integration
+npm run db:push        # create schema on the DB
+npm run db:seed        # populate from prisma/data (50 jobs)
+npm run dev            # → http://localhost:3000
 ```
 
 Try it:
@@ -115,40 +116,32 @@ Try it:
 - `GET /api/jobs/:id` — single job detail
 - All responses share the same `{ public, jobItems }` shape as RSC consumers
 
-## Deploy (Vercel + Vercel Postgres)
+## Deploy (Vercel + Prisma Postgres)
 
 Frontend, API routes, and database all live on Vercel — one dashboard, one
 deploy.
 
 1. **Push to GitHub.**
 2. **Import the repo on Vercel** — Next.js is auto-detected.
-3. **Storage → Create Database → Postgres** (powered by Neon). Pick a region
-   near your Vercel deployment region. Vercel auto-injects these environment
-   variables into every preview + production build:
-   - `POSTGRES_PRISMA_URL` (pooled, runtime queries)
-   - `POSTGRES_URL_NON_POOLING` (direct, migrations + seed)
+3. **Provision Prisma Postgres** from the Vercel Marketplace:
+   ```bash
+   vercel link
+   vercel integration add prisma-postgres
+   ```
+   This provisions a serverless Postgres instance and injects `DATABASE_URL`
+   (plus mirrored `POSTGRES_URL` and `PRISMA_DATABASE_URL` aliases) into every
+   environment — Production, Preview, and Development.
 4. **Bootstrap the schema + seed** once, from local:
    ```bash
-   vercel env pull .env.production.local       # pulls the injected URLs
-   npx prisma db push --schema=./prisma/schema.prisma
+   vercel env pull .env
+   npx prisma db push
    npm run db:seed
    ```
-5. **Redeploy** on Vercel — the build picks up `prisma generate` via the
-   `postinstall` hook, connects through the pooled URL at runtime, and
-   serves `/`, `/jobs/[id]`, `/api/jobs` from the edge.
+5. **Redeploy** (or push to `main`). The build picks up `prisma generate` via
+   the `postinstall` hook and connects through `DATABASE_URL` at runtime.
 
 After the initial seed, subsequent deploys don't need any manual DB steps —
-the schema and data already live in Neon.
-
-### Dev workflow with branches
-Neon supports per-branch DBs on the free tier. Create a separate branch for
-local dev so your prod data stays clean:
-
-```bash
-neonctl branches create --name dev
-neonctl connection-string dev --pooled  # → paste into .env as POSTGRES_PRISMA_URL
-neonctl connection-string dev           # → paste into .env as POSTGRES_URL_NON_POOLING
-```
+the schema and data live in Prisma Postgres.
 
 ## Notes
 
