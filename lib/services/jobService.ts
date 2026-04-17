@@ -39,9 +39,9 @@ export async function searchJobs(search: string): Promise<JobItem[]> {
   const rows = await prisma.jobItem.findMany({
     where: {
       OR: [
-        { title: { contains: s } },
-        { company: { contains: s } },
-        { tags: { contains: s } },
+        { title: { contains: s, mode: 'insensitive' } },
+        { company: { contains: s, mode: 'insensitive' } },
+        { tags: { contains: s, mode: 'insensitive' } },
       ],
     },
   });
