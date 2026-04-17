@@ -1,5 +1,24 @@
 import { prisma } from '../db';
 import type { JobItem, JobItemExpanded } from '../type';
+import type { JobSubmissionInput } from '../schemas';
+
+const DEFAULT_COVER_IMG =
+  'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1272&q=80';
+
+function deriveBadgeLetters(company: string): string {
+  const letters = company
+    .replace(/[^A-Za-z0-9]/g, '')
+    .slice(0, 2)
+    .toUpperCase();
+  return letters || 'JB';
+}
+
+function generateId(): string {
+  // Timestamp + 3 random digits — matches the seeded IDs' numeric shape.
+  return `${Date.now()}${Math.floor(Math.random() * 1000)
+    .toString()
+    .padStart(3, '0')}`;
+}
 
 type DbJobItem = Awaited<ReturnType<typeof prisma.jobItem.findFirst>>;
 
@@ -63,4 +82,39 @@ export async function getJobsByIds(ids: string[]): Promise<JobItemExpanded[]> {
     where: { id: { in: ids } },
   });
   return rows.map(rowToDetail);
+}
+
+/**
+ * Persist a user-submitted job. Auto-fills the fields that aren't part of the
+ * submission form (ID, date, badgeLetters, defaults for qualifications/reviews/
+ * cover image) so the record matches the shape RSC pages already expect.
+ */
+export async function createJob(input: JobSubmissionInput): Promise<string> {
+  const id = generateId();
+  const today = new Date().toISOString().slice(0, 10);
+
+  await prisma.jobItem.create({
+    data: {
+      id,
+      title: input.title,
+      company: input.company,
+      badgeLetters: deriveBadgeLetters(input.company),
+      daysAgo: 0,
+      relevanceScore: 99,
+      date: today,
+      seniority: input.seniority,
+      tags: JSON.stringify(input.tags),
+      remote: input.remote,
+      description: input.description,
+      qualifications: JSON.stringify([]),
+      reviews: JSON.stringify([]),
+      duration: 'Full-Time',
+      salary: input.salary ?? '',
+      location: input.location,
+      coverImgURL: DEFAULT_COVER_IMG,
+      companyURL: input.companyURL,
+    },
+  });
+
+  return id;
 }
