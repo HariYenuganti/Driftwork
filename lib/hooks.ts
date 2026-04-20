@@ -26,7 +26,7 @@ export function useJobItems(ids: number[]) {
   const idsKey = ids.slice().sort().join(',');
 
   useEffect(() => {
-    if (ids.length === 0) {
+    if (idsKey === '') {
       setJobItems([]);
       return;
     }
