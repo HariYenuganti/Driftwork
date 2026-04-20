@@ -17,7 +17,6 @@ export default function SearchForm() {
   // Sync local value if URL changes externally (e.g. back/forward).
   useEffect(() => {
     setValue(urlSearch);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [urlSearch]);
 
   // Push debounced value to URL.
@@ -28,6 +27,8 @@ export default function SearchForm() {
     else params.delete('search');
     const qs = params.toString();
     router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    // `searchParams`, `pathname`, `router`, `urlSearch` are stable enough
+    // that including them only re-fires the effect spuriously.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debounced]);
 
