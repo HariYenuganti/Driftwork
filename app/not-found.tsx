@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
+// Force dynamic rendering so the root layout's <Footer /> can query Prisma
+// at request time (not during prerender). Also keeps the count accurate
+// rather than frozen at the moment of build.
+export const dynamic = 'force-dynamic';
+
 export default function NotFound() {
   return (
     <section className="not-found">
